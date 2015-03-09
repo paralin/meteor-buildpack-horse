@@ -1,5 +1,4 @@
 #!/bin/sh
-# Add an alias of MONGOLAB_URI to MONGO_URL.
 echo "-----> Adding MONGODB_URL -> MONGO_URL env"
 cat > "$APP_CHECKOUT_DIR"/.profile.d/mongodb.sh <<EOF
 #!/bin/sh
